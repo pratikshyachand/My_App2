@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/option_profile"
+        android:title="@string/option_profile"
+        app:showAsAction="never"
+
+        />
+    <item
+        android:id="@+id/option_settings"
+        android:title="@string/option_settings"
+        app:showAsAction="never"
+        />
+    <item
+    android:id="@+id/option_help"
+    android:title="@string/option_help"
+    app:showAsAction="never"
+    />
+    <item
+        android:id="@+id/option_about"
+        android:title="@string/option_about"
+        app:showAsAction="never"
+        />
+</menu>
