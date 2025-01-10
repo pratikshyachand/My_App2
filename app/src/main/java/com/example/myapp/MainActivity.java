@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
        setSupportActionBar(toolbar);
         
         Intent intent= getIntent();
-        String name= intent.getStringExtra("userName");
+        String name= "Hello"+intent.getStringExtra("userName");
         TextView message= findViewById(R.id.tvMessage);
         message.setText(name);
     }
