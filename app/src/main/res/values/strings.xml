@@ -24,9 +24,9 @@
     <string name="user_image">user image</string>
 
     <array name="language">
-    <item>English</item><item>Nepali</item>
+        <item>English</item>
+        <item>Nepali</item>
     </array>
-
 
 
 </resources>
